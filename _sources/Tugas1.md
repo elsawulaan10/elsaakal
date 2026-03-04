@@ -5,15 +5,16 @@ Baik 👍 Berikut contoh lengkap **SPL 3 variabel** dan **SPL 4 variabel** mengg
 
 ## 📘 1️⃣ Contoh SPL Tiga Variabel (3×3)
 
-Misalkan sistem:
 
-[
+
+```math
 \begin{cases}
-x + y + z = 6 \
-2x - y + z = 3 \
+x + y + z = 6 \\
+2x - y + z = 3 \\
 x + 2y - z = 3
 \end{cases}
-]
+```
+
 
 ---
 
