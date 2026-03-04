@@ -1,9 +1,9 @@
-## matriks sistem persamaan
+# matriks sistem persamaan
 Baik 👍 Berikut contoh lengkap **SPL 3 variabel** dan **SPL 4 variabel** menggunakan **Eliminasi Gauss**, lengkap dengan langkah manualnya. Nanti langkah ini bisa langsung kamu pindahkan ke Jupyter Notebook (pakai NumPy atau tanpa library).
 
 ---
 
-# 📘 1️⃣ Contoh SPL Tiga Variabel (3×3)
+## 📘 1️⃣ Contoh SPL Tiga Variabel (3×3)
 
 Misalkan sistem:
 
@@ -17,7 +17,7 @@ x + 2y - z = 3
 
 ---
 
-## ✏ Langkah 1: Bentuk Matriks Augmented
+### ✏ Langkah 1: Bentuk Matriks Augmented
 
 [
 \left[
@@ -31,7 +31,7 @@ x + 2y - z = 3
 
 ---
 
-## ✏ Langkah 2: Eliminasi Kolom Pertama
+### ✏ Langkah 2: Eliminasi Kolom Pertama
 
 Hilangkan elemen di bawah pivot (1,1)
 
@@ -50,7 +50,7 @@ R₃ → R₃ − R₁
 
 ---
 
-## ✏ Langkah 3: Eliminasi Kolom Kedua
+### ✏ Langkah 3: Eliminasi Kolom Kedua
 
 Hilangkan elemen di bawah pivot kedua
 
@@ -68,7 +68,7 @@ R₃ → R₃ + \frac{1}{3}R₂
 
 ---
 
-## ✏ Langkah 4: Substitusi Mundur
+### ✏ Langkah 4: Substitusi Mundur
 
 Baris ke-3:
 
@@ -112,7 +112,7 @@ x = \frac{9}{7}
 
 ---
 
-## ✅ Hasil Akhir SPL 3 Variabel:
+### ✅ Hasil Akhir SPL 3 Variabel:
 
 [
 x = \frac{9}{7}, \quad y = \frac{15}{7}, \quad z = \frac{18}{7}
@@ -120,7 +120,7 @@ x = \frac{9}{7}, \quad y = \frac{15}{7}, \quad z = \frac{18}{7}
 
 ---
 
-# 📘 2️⃣ Contoh SPL Empat Variabel (4×4)
+## 📘 2️⃣ Contoh SPL Empat Variabel (4×4)
 
 Misalkan sistem:
 
@@ -135,7 +135,7 @@ x + y + 2z - w = 8
 
 ---
 
-## ✏ Langkah 1: Matriks Augmented
+### ✏ Langkah 1: Matriks Augmented
 
 [
 \left[
@@ -150,7 +150,7 @@ x + y + 2z - w = 8
 
 ---
 
-## ✏ Langkah 2: Eliminasi Kolom Pertama
+### ✏ Langkah 2: Eliminasi Kolom Pertama
 
 R₂ → R₂ − 2R₁
 R₃ → R₃ − R₁
@@ -169,7 +169,7 @@ R₄ → R₄ − R₁
 
 ---
 
-## ✏ Langkah 3: Eliminasi Kolom Kedua
+### ✏ Langkah 3: Eliminasi Kolom Kedua
 
 R₃ → R₃ + \frac{1}{3}R₂
 
@@ -186,7 +186,7 @@ R₃ → R₃ + \frac{1}{3}R₂
 
 ---
 
-## ✏ Langkah 4: Eliminasi Kolom Ketiga
+### ✏ Langkah 4: Eliminasi Kolom Ketiga
 
 Hilangkan angka 1 pada R₄
 
@@ -196,7 +196,7 @@ Hasil akhirnya menjadi bentuk segitiga atas, lalu lakukan substitusi mundur.
 
 ---
 
-## ✅ Hasil Akhir SPL 4 Variabel:
+### ✅ Hasil Akhir SPL 4 Variabel:
 
 [
 x = 1, \quad y = 2, \quad z = 3, \quad w = 4
@@ -204,7 +204,6 @@ x = 1, \quad y = 2, \quad z = 3, \quad w = 4
 
 ---
 
-# 💻 Jika Mau Dibuat di Jupyter Notebook
 
 Kamu bisa pakai NumPy seperti ini:
 
